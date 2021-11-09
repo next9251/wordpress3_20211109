@@ -12,35 +12,37 @@
     href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Noto+Serif+JP:wght@500&family=Shippori+Mincho&display=swap"
     rel="stylesheet">
 </head>
+
+
+
 <body>
   <header class="header">
     <a href="index.html" class="header__logo">株式会社estra</a>
-    <nav class="header-nav pc">
+    <nav class="header-nav">
       <ul class="header-nav__ul">
-        <li class="header-nav__list"><a href="リンク先URL">About</a></li>
-        <li class="header-nav__list"><a href="リンク先URL">News</a></li>
-        <li class="header-nav__list"><a href="リンク先URL">Service</a></li>
-        <li class="header-nav__list"><a href="リンク先URL">Recruit</a></li>
-        <li class="header-nav__list"><a href="リンク先URL">Contact</a></li>
+        <li class="header-nav__list"><a href="/about-page.html">About</a></li>
+        <li class="header-nav__list"><a href="/news.html">News</a></li>
+        <li class="header-nav__list"><a href="/service.html">Service</a></li>
+        <li class="header-nav__list"><a href="/recruit.html">Recruit</a></li>
+        <li class="header-nav__list"><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="menu" id="menu">
+      <span class="menu__line--top"></span>
+      <span class="menu__line--middle"></span>
+      <span class="menu__line--bottom"></span>
+    </div>
+    <nav class="header__nav--sp">
+      <ul class="header-nav__ul--sp">
+        <li class="header-nav__list--sp"><a href="/about-page.html">About</a></li>
+        <li class="header-nav__list--sp"><a href="/news.html">News</a></li>
+        <li class="header-nav__list--sp"><a href="/service.html">Service</a></li>
+        <li class="header-nav__list--sp"><a href="/recruit.html">Recruit</a></li>
+        <li class="header-nav__list--sp"><a href="/contact.html">Contact</a></li>
+        <li class="header-nav__list--sp header__logo"><a href="page-about.html">株式会社estra</a></li>
       </ul>
     </nav>
   </header>
-  <div class="menu tab" id="menu">
-    <span class="menu__line--top"></span>
-    <span class="menu__line--middle"></span>
-    <span class="menu__line--bottom"></span>
-  </div>
-
-  <nav class="header__na--sp tab" id="header__nav--sp">
-    <ul class="header-nav__u--sp">
-      <li class="header-nav__list--sp"><a href="リンク先URL">About</a></li>
-      <li class="header-nav__list--sp"><a href="リンク先URL">News</a></li>
-      <li class="header-nav__list--sp"><a href="リンク先URL">Service</a></li>
-      <li class="header-nav__list--sp"><a href="リンク先URL">Recruit</a></li>
-      <li class="header-nav__list--sp"><a href="リンク先URL">Contact</a></li>
-      <li class="header-nav__list--sp header__logo"><a href="page-about.html">株式会社estra</a></li>
-    </ul>
-  </nav>
 
   <div class="company-firstview">
     <h1 class="company-firstview__catchcopy">
@@ -52,18 +54,18 @@
   <div class="trans">
    <nav class="trans-nav">
      <ul class="trans-nav__ul">
-      <li class="trans-nav__list"><a href="リンク先URL">Top</a></li>
+      <li class="trans-nav__list"><a href="/index.html">Top</a></li>
       <li class="trans-nav__list">></li>
-       <li class="trans-nav__list"><a href="リンク先URL">About</a></li>
+       <li class="trans-nav__list"><a href="/about-page.html">About</a></li>
       <li class="trans-nav__list">></li>
-       <li class="trans-nav__list"><a href="リンク先URL">経営理念</a></li>
+       <li class="trans-nav__list"><a href="/company-page.html">経営理念</a></li>
     </ul>
    </nav>
   </div>
 
   <div class="company-content">
     <h2 class="company-mission">Mission</h2>
-    <p class="Company-mission__cont">全ての人の成長にコミットする<br>
+    <p class="company-sbttl">全ての人の成長にコミットする<br>
     (Commit to the growth for everyone)</p>
   </div>
   <svg  class="company-line" xmlns="http://www.w3.org/2000/svg" width="1322" height="1" viewBox="0 0 1322 1">
@@ -73,7 +75,7 @@
 
   <div class="company-content2">
     <h2 class="company-vision">Vision</h2>
-    <p class="Company-vision__cont">教育業界を変革する<br>
+    <p class="company-sbttl">教育業界を変革する<br>
     (Transform the education industry)</p>
   </div>
   <svg class="company-line" xmlns="http://www.w3.org/2000/svg" width="1322" height="1" viewBox="0 0 1322 1">
@@ -84,7 +86,7 @@
 
   <div class="company-content3">
     <h2 class="company-value">Value</h2>
-    <p class="Company-vision__cont">No limits(限界を決めるな)<br>
+    <p class="company-sbttl">No limits(限界を決めるな)<br>
       Play hard(思いっきり楽しめ)<br>
       Be professional(プロフェッショナルであれ)</p>
   </div>
@@ -96,9 +98,9 @@
 
   <div class="company-content4">
     <h2 class="company-name">企業名由来</h2>
-    <p class="Company-name__cont">Education×Strategy<br>
-    世界的に遅れを取っている日本の教<br>
-    育業界に新たな教育戦略を取り入れ、教育業界を変革するという想いが<br>
+    <p class="company-sbttl">Education×Strategy<br>
+    世界的に遅れを取っている日本の教<br class="br-pc">
+    育業界に新たな教育戦略を取り入れ、教育業界を変革するという想いが<br class="br-pc">
     込められている。</p>
   </div>
 </body>
@@ -111,13 +113,13 @@
   <a href="index.html" class="footer__logo">株式会社estra</a>
   <nav class="footer-nav">
     <ul class="footer-nav__ul">
-      <li class="footer-nav__list"><a href="リンク先URL">会社概要</a></li>
-      <li class="footer-nav__list"><a href="リンク先URL">採用情報</a></li>
-      <li class="footer-nav__list"><a href="リンク先URL">プライバシーポリシー</a></li>
-      <li class="footer-nav__list"><a href="リンク先URL">お問い合わせ</a></li> 　
+      <li class="footer-nav__list"><a href="/company-page2.html">会社概要</a></li>
+      <li class="footer-nav__list"><a href="/recruit.html">採用情報</a></li>
+      <li class="footer-nav__list"><a href="/privacy.html">プライバシーポリシー</a></li>
+      <li class="footer-nav__list"><a href="/contact.html">お問い合わせ</a></li> 　
     </ul>
   </nav>　　
   <small class="copyright">
-      &copy; 2021 Tokyo Designplex Institute. All rights reserved.
+    &copy; 2021 Tokyo Designplex Institute. All rights reserved.
 </footer>
 </html>

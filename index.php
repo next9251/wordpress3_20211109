@@ -1,5 +1,5 @@
  <?php get_header(); ?>
- <div class="firstview-top">
+ <div class="firstview">
    <h1 class="firstview__catchcopy">
      Commit to the growth for everyone
    </h1>
@@ -32,7 +32,7 @@
        フリーランスエンジニアを目指すことができます。
      </p>
      <a class="service-sb__trans" href="/service.html">詳しくはこちら</a>
-     <img class="service-img" src="/img/素材１.svg" alt="">
+     <img class="service-img" src="./img/素材１.svg" alt="">
    </div>
 
    <div class="service-sb2">
@@ -44,7 +44,7 @@
        Web会議、面談予約、チャット、学習計画作成、<br class="br-pc">学習状況の把握、教材管理、指導報告書作成<br class="br-pc">といったコーチングにおいて必要な機能が<br class="br-pc">1つにまとまった業務効率化を支えるSaaS。
      </p>
      <a class="service-sb__trans2" href="/service.html">詳しくはこちら</a>
-     <img class="service2-img" src="./img/素材１.svg" alt="">
+     <img class="service2-img" src="./img/インタビュー.jpeg" alt="">
    </div>
 
    <div class="news">

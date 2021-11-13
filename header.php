@@ -18,6 +18,7 @@
   <header class="header">
     <a href="<?php echo esc_url(home_url('/')); ?>" class="header__logo">
       <?php bloginfo('name'); ?>
+
       <nav class=" header-nav">
         <ul class="header-nav__ul">
           <li class="header-nav__list"><a href="/about-page.html">About</a></li>
@@ -32,6 +33,7 @@
         <span class="menu__line--middle"></span>
         <span class="menu__line--bottom"></span>
       </div>
+
       <nav class="header__nav--sp">
         <ul class="header-nav__ul--sp">
           <li class="header-nav__list--sp"><a href="/about-page.html">About</a></li>

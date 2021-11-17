@@ -15,8 +15,8 @@
      独自のオペレーションとコーチングを融合した新しい教育の仕組みにより、<br class="br-pc">
      一人ひとりに合わせた最適な教育を提供します。<br>
      スクリーン リーダーのサポートが有効になっています。</p>
-   <a class="about-ttl__trans" href="/about-page.html">詳しくはこちら</a>
-   <img class="about-img" src="./img/素材１.svg" alt="">
+   <a class="about-ttl__trans" href="<?php echo home_url(); ?>/page-about.php">詳しくはこちら</a>
+   <img class="about-img" src="<?php echo get_template_directory_uri(); ?>/img/素材１.svg" alt="">
  </div>
 
  <div class="service">
@@ -31,8 +31,8 @@
        プログラミング未経験の方でも、「独自の学習ノウハウ」で<br class="br-pc">
        フリーランスエンジニアを目指すことができます。
      </p>
-     <a class="service-sb__trans" href="/service.html">詳しくはこちら</a>
-     <img class="service-img" src="./img/素材１.svg" alt="">
+     <a class="service-sb__trans" href="<?php echo home_url(); ?>/service.html">詳しくはこちら</a>
+     <img class="service-img" src="<?php echo get_template_directory_uri(); ?>/img/素材１.svg" alt="">
    </div>
 
    <div class="service-sb2">
@@ -43,8 +43,8 @@
        Stageee(ステージー)はコーチングに特化した業務<br class="br-pc">効率化支援ツールです。<br>
        Web会議、面談予約、チャット、学習計画作成、<br class="br-pc">学習状況の把握、教材管理、指導報告書作成<br class="br-pc">といったコーチングにおいて必要な機能が<br class="br-pc">1つにまとまった業務効率化を支えるSaaS。
      </p>
-     <a class="service-sb__trans2" href="/service.html">詳しくはこちら</a>
-     <img class="service2-img" src="./img/インタビュー.jpeg" alt="">
+     <a class="service-sb__trans2" href="<?php echo home_url(); ?>/service.html">詳しくはこちら</a>
+     <img class="service2-img" src="<?php echo get_template_directory_uri(); ?>/img/素材１.svg" alt="">
    </div>
 
    <div class="news">
@@ -53,7 +53,7 @@
        <p class="news-sb__contents">
          Estra 新代々木オフィス昨年12月に移転しました
        </p>
-       <a class="news-sb__trans" href="/news.html">一覧ページはこちら　＞</a>
+       <a class="news-sb__trans" href="<?php echo home_url(); ?>/news.html">一覧ページはこちら　＞</a>
      </div>
    </div>
 

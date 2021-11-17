@@ -21,7 +21,7 @@
 
       <nav class=" header-nav">
         <ul class="header-nav__ul">
-          <li class="header-nav__list"><a href="/about-page.html">About</a></li>
+          <li class="header-nav__list"><a href="/about-page.html">About</a></li>  
           <li class="header-nav__list"><a href="/news.html">News</a></li>
           <li class="header-nav__list"><a href="/service.html">Service</a></li>
           <li class="header-nav__list"><a href="/recruit.html">Recruit</a></li>

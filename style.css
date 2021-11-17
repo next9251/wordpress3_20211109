@@ -167,12 +167,13 @@ a {
   margin-top: 30px;
 }
 
-.service-imgservice{
-  width: 250px;
-  position: absolute;
-  top: 210%;
-  left: 18%;
+.service-img{
+  width:250px;
+  position:absolute;
+  top:235%;
+  left:10%;
 }
+
 .about-ttl__sb2{
   font-size: 25px;
   margin-top: 50px;
@@ -197,7 +198,7 @@ a {
 .service2-img{
   width: 250px;
   position: absolute;
-  top: 258%;
+  top: 298%;
   left:65%;
 }
 .news{

@@ -19,7 +19,8 @@
    <p class="about-secview__content">
      estraが大切にすることは、<br>教育のDX化で日本の教育を変革すること。<br>日本の教育にコーチングを普及し、<br>自発的に目標達成ができる人材を育成する。
    </p>
-   <img class="about-serview-img" src="./img/素材１.svg" alt="">
+   <a class="about-secview__trans" href="<?php echo esc_url(home_url('/company')); ?>/">詳しくはこちら ＞</a>
+   <img class="about-serview-img" src="<?php echo get_template_directory_uri(); ?>/img/素材１.svg" alt="">
  </div>
 
  <div class="about-content">
@@ -33,7 +34,7 @@
      </h3>
      <p class="about-main__cont"> 私たちが大切にしている<br>「成長」のためには失敗は必要です。
      </p>
-     <img class="about-main__img1" src="./img/22055615_m.jpg" alt="">
+     <img class="about-main__img1" src="<?php echo get_template_directory_uri(); ?>/img/22055615_m.jpg" alt="">
    </div>
 
    <div class="about-main2">
@@ -45,7 +46,7 @@
        時には厳しいことも発言することが重要です。<br>
        若いメンバーで構成されていることもあり、<br>
        気軽に誰とでも話せる環境です。</p>
-     <img class="about-main__img2" src="./img/22471995_m.jpg" alt="">
+     <img class="about-main__img2" src="<?php echo get_template_directory_uri(); ?>/img/80_top_mainv-thumb-1000x540-6735.jpeg" alt="">
    </div>
 
    <div class="about-main3">
@@ -57,7 +58,27 @@
        様々なバックグラウンドを<br>
        持ったメンバーが働いています。<br>
      </p>
-     <img class="about-main__img3" src="./img/22471995_m.jpg" alt="">
+     <img class="about-main__img3" src="<?php echo get_template_directory_uri(); ?>/img/eyecatch.jpeg" alt="">
    </div>
-   </body>
-   <?php get_footer(); ?> 
+
+   <svg class="member-gree__line" xmlns="http://www.w3.org/2000/svg" width="2542.006" height="15" viewBox="0 0 2542.006 15">
+     <line id="線_42" data-name="線 42" y1="14" x2="2542" transform="translate(0.003 0.5)" fill="none" stroke="#707070" stroke-width="1" />
+   </svg>
+
+
+
+   <div class="member-gree">
+     <div>
+       <img class="member-gree__img" src="<?php echo get_template_directory_uri(); ?>/img/22471995_m-min.jpg" alt="">
+       <a class="member-gree__list" href="<?php echo esc_url(home_url('/member')); ?>/">メンバー紹介ページはこちら＞</a>
+     </div>
+
+     <div>
+       <img class="member-gree__img2" src="<?php echo get_template_directory_uri(); ?>/img/22353514_m-min.jpg" alt="">
+       <a class="member-gree__list2" href="<?php echo esc_url(home_url('/topmessage')); ?>/">代表紹介ページはこちら＞</a>
+     </div>
+   </div>
+ </div>
+
+ </body>
+ <?php get_footer(); ?>

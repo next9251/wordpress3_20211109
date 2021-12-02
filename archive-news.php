@@ -31,7 +31,7 @@
 
      <?php
       $args = array(
-        'post_type' => 'News', //カスタム投稿タイプを指定
+        'post_type' => 'news', //カスタム投稿タイプを指定
         'posts_per_page' => 6, //表示する記事数
         'tax_query' => array(
           array(
@@ -69,7 +69,7 @@
 
      <?php
       $args = array(
-        'post_type' => 'News', //カスタム投稿タイプを指定
+        'post_type' => 'news', //カスタム投稿タイプを指定
         'posts_per_page' => 6, //表示する記事数
         'tax_query' => array(
           array(

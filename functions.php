@@ -58,77 +58,35 @@ function cpt_register_news()
 add_action('init', 'cpt_register_news');
 
 
-function cptui_register_my_taxes_news_custom()
-{
+//カスタム投稿タイプを管理画面に追加
 
-	/**
-	 * Taxonomy: ニュース種別.
-	 */
-
+function cpt_register_interview()
+{ //add_actionの２つのパラメーターを定義
 	$labels = [
-		"name" => __("ニュース種別", "custom-post-type-ui"),
-		"singular_name" => __("ニュース種別", "custom-post-type-ui"),
+		"singular_name" => "interview",
+		"edit_item" => "interview",
 	];
-
-
 	$args = [
-		"label" => __("ニュース種別", "custom-post-type-ui"),
+		"label" => "interview", //管理画面に出てくる名前
 		"labels" => $labels,
+		"description" => "",
 		"public" => true,
-		"publicly_queryable" => true,
-		"hierarchical" => true,
-		"show_ui" => true,
-		"show_in_menu" => true,
-		"show_in_nav_menus" => true,
-		"query_var" => true,
-		"rewrite" => ['slug' => 'news_custom', 'with_front' => true,],
-		"show_admin_column" => false,
 		"show_in_rest" => true,
-		"show_tagcloud" => false,
-		"rest_base" => "news_custom",
-		"rest_controller_class" => "WP_REST_Terms_Controller",
-		"show_in_quick_edit" => false,
-		"show_in_graphql" => false,
-	];
-	register_taxonomy("news_custom", ["news"], $args);
-}
-add_action('init', 'cptui_register_my_taxes_news_custom');
-
-function cptui_register_my_taxes_interview_custom()
-{
-
-	/**
-	 * Taxonomy: インタビュー.
-	 */
-
-	$labels = [
-		"name" => __("インタビュー", "custom-post-type-ui"),
-		"singular_name" => __("インタビュー", "custom-post-type-ui"),
-	];
-
-
-	$args = [
-		"label" => __("インタビュー", "custom-post-type-ui"),
-		"labels" => $labels,
-		"public" => true,
-		"publicly_queryable" => true,
+		"rest_base" => "",
+		"rest_controller_class" => "WP_REST_Posts_Controller",
+		"has_archive" => true,
+		"delete_with_user" => false,
+		"exclude_from_search" => false,
+		"map_meta_cap" => true,
 		"hierarchical" => true,
-		"show_ui" => true,
-		"show_in_menu" => true,
-		"show_in_nav_menus" => true,
+		"rewrite" => ["slug" => "news", "with_front" => true], //スラッグをworksに設定
 		"query_var" => true,
-		"rewrite" => ['slug' => 'interview_custom', 'with_front' => true,],
-		"show_admin_column" => false,
-		"show_in_rest" => true,
-		"show_tagcloud" => false,
-		"rest_base" => "interview_custom",
-		"rest_controller_class" => "WP_REST_Terms_Controller",
-		"show_in_quick_edit" => false,
-		"show_in_graphql" => false,
+		"menu_position" => 6,
+		"supports" => ["title", "editor", "thumbnail"],
 	];
-	register_taxonomy("interview_custom", ["interview"], $args);
+	register_post_type("interview", $args);
 }
-add_action('init', 'cptui_register_my_taxes_interview_custom');
+add_action('init', 'cpt_register_interview');
 
 ?>
 

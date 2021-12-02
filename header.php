@@ -16,9 +16,10 @@
 
 <body <?php body_class(); ?>>
   <header class="header">
-    <a href="<?php echo esc_url(home_url('/')); ?>" class="header__logo">
-      <?php bloginfo('name'); ?></a>
-
+    <div class="header__logo">
+      <a href="<?php echo esc_url(home_url('/')); ?>">
+        <?php bloginfo('name'); ?></a>
+    </div>
     <nav class="header-nav">
       <ul class="header-nav__ul">
         <li class="header-nav__list"><a href="<?php echo esc_url(home_url('/about')); ?>/">About</a></li>

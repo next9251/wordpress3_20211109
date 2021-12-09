@@ -22,7 +22,7 @@
      </div>
    </div>
    <a class="about-secview__trans" href="<?php echo esc_url(home_url('/company')); ?>/">詳しくはこちら ＞</a>
-   <img class="about-serview-img" src="<?php echo get_template_directory_uri(); ?>/img/素材１.svg" alt="">
+
  </div>
 
  <div class="about-content">
@@ -65,7 +65,7 @@
 
    <div class="about-main3">
      <div class="about-main__top">
-       <div class="about-main__box">
+       <div class="about-main__box3">
          <h3 class="about-main__title3">
            ０３　メンバーの多様性
          </h3>

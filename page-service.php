@@ -17,12 +17,13 @@
  </div>
 
  <div class="service-front">
+
    <div class="service-conts">
      <div class="service-conts__left">
        <img class="service-conts__img" src="<?php echo get_template_directory_uri(); ?>/img/4004949_m.jpg" alt="">
      </div>
      <div class="service-conts__right">
-       <h3 class="service-conts__ttl">”フリーランス特化型”<br>プログラミングスクールCOACHTECH</h3>
+       <div class="service-conts__ttl">”フリーランス特化型”<br>プログラミングスクールCOACHTECH</div>
        <svg class="service-conts__line" xmlns="http://www.w3.org/2000/svg" width="874" height="2" viewBox="0 0 874 2">
          <path id="パス_18" data-name="パス 18" d="M0,0H874" transform="translate(0 1)" fill="none" stroke="#000" stroke-width="2" />
        </svg>
@@ -37,7 +38,7 @@
 
    <div class="service2-conts">
      <div class="service2-conts__left">
-       <h3 class="service2-conts__ttl">数字で見る「COACHTECH」</h3>
+       <div class="service2-conts__ttl">数字で見る「COACHTECH」</div>
        <svg class="service2-conts__line" xmlns="http://www.w3.org/2000/svg" width="874" height="2" viewBox="0 0 874 2">
          <path id="パス_18" data-name="パス 18" d="M0,0H874" transform="translate(0 1)" fill="none" stroke="#000" stroke-width="2" />
        </svg>
@@ -59,27 +60,26 @@
    <div class="service-center__list">
      <div class="service-center__list1">
        <h3 class="service-center__number">０1</h3>
-       <img class="service-center__line" src="<?php echo get_template_directory_uri(); ?>/img/棒(Line).svg" alt="">
        <p class="service-center__conts">
          スキルレベルを最短で<br class="br-sp">高めるオーダーメイドカリキュラム
        </p>
-       <img class="service-center-img1" src="<?php echo get_template_directory_uri(); ?>/img/素材１.svg">
+
      </div>
      <div class="service-center__list2">
        <h3 class="service-center__number">０２</h3>
-       <img class="service-center__line2" src="<?php echo get_template_directory_uri(); ?>/img/棒(Line).svg" alt="">
+
        <p class="service-center__conts">
          現役エンジニアの専属コーチが学習サポート
        </p>
-       <img class="service-center-img2" src="<?php echo get_template_directory_uri(); ?>/img/素材１.svg">
+
      </div>
      <div class="service-center__list3">
        <h3 class="service-center__number">０３</h3>
-       <img class="service-center__line3" src="<?php echo get_template_directory_uri(); ?>/img/棒(Line).svg" alt="">
+
        <p class="service-center__conts">
          エラーや疑問点をすぐに<br class="br-sp">解決できる質問チャットサポート
        </p>
-       <img class="service-center-img3" src="<?php echo get_template_directory_uri(); ?>/img/素材１.svg">
+
      </div>
    </div>
  </div>

@@ -161,7 +161,7 @@
       </div>
     </div>
     <div class="recruit-work">
-      <a class="recruit-work__bottan" href="<?php echo esc_url(home_url('/environment')); ?>/">働く環境はこちらから</a>
+      <a class="recruit-work__bottan" href="<?php echo esc_url(home_url('/interview')); ?>/">働く環境はこちらから</a>
     </div>
   </div>
   </body>

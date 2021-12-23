@@ -23,11 +23,9 @@
         'post_type' => 'interview', //カスタム投稿タイプを指定
         'posts_per_page' => 6, //表示する記事数
         'tax_query' => array(
-          array(
-            'taxonomy' => 'interview_custom', // タクソノミースラッグを指定
-            'terms' => 'interview-list', //タームの記述
+        'taxonomy' => 'interview_custom', // タクソノミースラッグを指定
+        'terms' => 'interview-list', //タームの記述
           ),
-        ),
       );
       $the_query = new WP_Query($args); ?>
      <ul>

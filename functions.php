@@ -79,7 +79,7 @@ function cpt_register_interview()
 		"exclude_from_search" => false,
 		"map_meta_cap" => true,
 		"hierarchical" => true,
-		"rewrite" => ["slug" => "news", "with_front" => true], //スラッグをworksに設定
+		"rewrite" => ["slug" => "interview", "with_front" => true], //スラッグをworksに設定
 		"query_var" => true,
 		"menu_position" => 6,
 		"supports" => ["title", "editor", "thumbnail"],

@@ -34,11 +34,9 @@
         'post_type' => 'news', //カスタム投稿タイプを指定
         'posts_per_page' => 6, //表示する記事数
         'tax_query' => array(
-          array(
-            'taxonomy' => 'news_custom', // タクソノミースラッグを指定
-            'terms' => 'corporate-news', //タームの記述
+          'taxonomy' => 'news_custom', // タクソノミースラッグを指定
+          'terms' => 'corporate-news', //タームの記述
           ),
-        ),
       );
       $the_query = new WP_Query($args ); ?>
      <ul>
